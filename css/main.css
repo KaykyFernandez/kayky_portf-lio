@@ -1,0 +1,83 @@
+main {
+    padding: 5%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* MAIN CONTENT =============== */
+  main .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main .main-content h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em;
+  }
+  
+  main .main-content .text {
+    margin-bottom: 10%;
+  }
+  
+  main .main-content .text p {
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  
+  /* CARDS ================== */
+  main .techs .cards-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  main .techs .cards-container .card {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: box-shadow 0.25s ease-in-out;
+  }
+  
+  main .techs .cards-container .card img {
+    width: 80%;
+  }
+  
+  main .techs .cards-container .card:hover {
+    box-shadow: 0px 0px 8px #00e0ff;
+  }
+  
+  /* FIGURE ============= */
+  main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main figure img {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+  
+    margin-bottom: 6%;
+    cursor: pointer;
+    border: 1px #00e0ff solid;
+    transition: 0.2s ease-in-out;
+  }
+  
+  main figure img:hover {
+    box-shadow: 0px 0px 6px #00e0ff;
+  }
