@@ -11,6 +11,8 @@ header h1 div a {
     font-size: 2.8em;
     font-weight: 200;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 
